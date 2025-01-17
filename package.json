@@ -1,6 +1,6 @@
 {
   "name": "@whoisryosuke/react-music",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
