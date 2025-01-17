@@ -1,9 +1,9 @@
-import React from "react";
+type Props = {
+  test: boolean;
+};
 
-type Props = {};
-
-const Test = (props: Props) => {
-  return <div>Test</div>;
+const Test = ({ test }: Props) => {
+  return <div>{test ? "true" : "false"}</div>;
 };
 
 export default Test;
