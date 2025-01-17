@@ -1,18 +1,18 @@
 {
-  "name": "react-vite-library-boilerplate",
-  "version": "0.2.0",
+  "name": "@whoisryosuke/react-music",
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/react-vite-library-boilerplate.umd.js",
-  "module": "./dist/react-vite-library-boilerplate.es.js",
+  "main": "./dist/@whoisryosuke/react-music.umd.js",
+  "module": "./dist/@whoisryosuke/react-music.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/react-vite-library-boilerplate.es.js",
-      "require": "./dist/react-vite-library-boilerplate.umd.js"
+      "import": "./dist/@whoisryosuke/react-music.es.js",
+      "require": "./dist/@whoisryosuke/react-music.umd.js"
     }
   },
   "scripts": {
